@@ -18,31 +18,11 @@ PentesterWorld Password Strength Checker
 
 SecureToolbox Password Strength Analyzer
 
- Passwords Tested
-#	Password	Description
-1	Sustainable!@#1234	Long, mixed complexity, includes symbols
-2	Modersta@!%123	Balanced mix, medium length
-3	Sh@$ani	Short, limited complexity
-4	R@hnl9351	Personal-looking, includes numbers
-5	Q!7vZ_4yLp#9	Randomly generated, high entropy
-6	Tree!Rain2025@Blue	Passphrase-style, memorable but strong
-7	xY9$Kz3@tV2!	Compact but very random
-8	MyDog$Barks!Tw1ce	Long passphrase, strong pattern
-9	admin@123	Common pattern, predictable
-10	N!ght_F0x#42	Stylish, mixed character types
-🧪 Analyzer Results
-Password	PasswordChecking.com	PentesterWorld	SecureToolbox	Overall Rating
-Sustainable!@#1234	Very Strong	Strong	Very Strong	🔒 Very Strong
-Modersta@!%123	Strong	Strong	Strong	🔐 Strong
-Sh@$ani	Weak	Weak	Weak	⚠️ Weak
-R@hnl9351	Medium	Weak	Medium	⚠️ Medium
-Q!7vZ_4yLp#9	Excellent	Very Strong	Very Strong	🔒 Very Strong
-Tree!Rain2025@Blue	Excellent	Very Strong	Very Strong	🔒 Very Strong
-xY9$Kz3@tV2!	Excellent	Very Strong	Very Strong	🔒 Very Strong
-MyDog$Barks!Tw1ce	Strong	Very Strong	Very Strong	🔐 Strong
-admin@123	Weak	Weak	Weak	❌ Very Weak
-N!ght_F0x#42	Strong	Strong	Strong	🔐 Strong
- Observations
+<img width="1025" height="688" alt="passwords tested" src="https://github.com/user-attachments/assets/92a32d62-8e1f-408d-b500-ff76bd216b02" />
+
+<img width="1142" height="637" alt="analyzer results" src="https://github.com/user-attachments/assets/4b083cb0-7e8c-4e88-8bd5-0076a7f64b9e" />
+
+Observations
 
 Length dramatically impacts resistance to brute-force attacks.
 
@@ -52,22 +32,9 @@ Predictable patterns (admin@123, short names) were rated weak across all tools.
 
 Passphrase-style passwords (e.g., “Tree!Rain2025@Blue”) offer strength and memorability.
 
- Best Practices Learned
-Principle	Explanation
-Use 12+ characters	The longer the password, the stronger it becomes.
-Mix character types	Combine uppercase, lowercase, numbers, and special symbols.
-Avoid dictionary words	Tools penalized real words like “admin” or “Shani.”
-Be random	Unpredictable sequences resist brute-force and dictionary attacks.
-Never reuse passwords	Reduces vulnerability to credential stuffing.
-Consider passphrases	Easier to remember but still strong when randomized.
-Use a password manager	For generating and storing complex, unique passwords.
-⚔️ Common Password Attack Methods
-Attack Type	Description	Example	Mitigation
-Brute Force	Tries all possible combinations.	Cracking “abc123” by testing every variant.	Use long, complex passwords.
-Dictionary Attack	Tests common words or patterns.	“password”, “letmein”.	Avoid real words and predictable changes.
-Credential Stuffing	Reuses stolen credentials.	Using same password across sites.	Use unique passwords per site.
-Phishing	Tricks users into revealing credentials.	Fake login pages.	Verify URLs, enable 2FA.
-Social Engineering	Manipulates users to disclose passwords.	Pretending to be IT support.	Never share passwords verbally or by email.
+<img width="1092" height="495" alt="pratices learned " src="https://github.com/user-attachments/assets/1cbc3805-ec29-4374-8f44-3ef7c2caa43a" />
+<img width="1172" height="508" alt="common password attack methods" src="https://github.com/user-attachments/assets/053d86fb-7d57-4068-b61b-a511ed14b196" />
+
 🔒 How Password Complexity Affects Security
 
 Complexity and randomness increase entropy, making passwords mathematically harder to guess.
@@ -77,6 +44,8 @@ Weak passwords (e.g., admin@123) can be cracked in seconds.
 Complex ones (e.g., Q!7vZ_4yLp#9) can take centuries with current technology.
 
 Long passphrases balance strength and memorability.
+
+ 
 
  Conclusion
 
